@@ -1,0 +1,15 @@
+{
+    "name": "dawid/task",
+    "description": "Server side application",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dawid Blaszkiewicz",
+            "email": "dawidb4374@o2.pl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "endroid/qr-code": "^3.9"
+    }
+}
