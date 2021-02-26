@@ -1,7 +1,8 @@
 # PHP-MySQL-APP
 Application using PHP and MySQL Database
 
-Application functions: 
+
+### Application functions: 
 
 - read JSON data from URL address,
 - generate QR code from JSON data,
@@ -15,14 +16,29 @@ Application functions:
 - Composer 2.0.9
 
 
-Usage:
+### App preview:
+
+User json data:
+
+![user-json-data](https://github.com/dawid4374/PHP-MySQL-APP/blob/main/uploads/user-json.PNG?raw=true)
+
+Application results:
+
+![results](https://github.com/dawid4374/PHP-MySQL-APP/blob/main/uploads/task-preview.PNG?raw=true)
+
+Database preview:
+
+![database-results](https://github.com/dawid4374/PHP-MySQL-APP/blob/main/uploads/database-preview.PNG?raw=true)
+
+
+### Usage:
 
 - install package:
-
+```
 $ composer require endroid/qr-code
+```
 
-
-  Database:
+Database:
 
 Create ".env" and add there your MySQL username, password, hostname
 
